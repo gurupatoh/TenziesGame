@@ -46,10 +46,11 @@ main {
 .roll-dice{
     width: 120px;
     height: 50px;
-    background-color: blue;
+    background-color: #59E391;
     border-radius: 10px;
     font-size:1.2em;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .title {
