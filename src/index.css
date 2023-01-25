@@ -24,6 +24,8 @@ main {
      gap:20px;
      padding:20px;
      margin-bottom: 40px;
+     height: 400px;
+     max-width: 800px;
 }
 .die-face{
     height: 60px;
@@ -66,39 +68,5 @@ main {
 }
 .Rolls{
     display: flex;
-    gap: 15px;
-}
-
-@media(min-width:600px){
-    .die-container{
-        grid-template:auto auto / repeat(4,1fr) ;
-    }
-    .die-face{
-        height: 80px;
-        width: 80x;
-    }
-    .roll-dice{
-        width: 140px;
-        height: 60px;
-    }
-    .title{
-        font-size:60px;
-    }
-}
-
-@media(min-width:800px){
-    .die-container{
-        grid-template:auto auto / repeat(6,1fr) ;
-    }
-    .die-face{
-        height: 100px;
-        width: 100x;
-    }
-    .roll-dice{
-        width: 160px;
-        height: 70px;
-    }
-    .title{
-        font-size:80px;
-    }
+    gap: 10px;
 }

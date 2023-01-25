@@ -72,6 +72,7 @@ function handleClick() {
     setDice(allNewDice());
     setTenzies(false);
     setRolls(0);  // reset the rolls to 0 when starting a new game
+    setTimeLeft(60)
   }
 }
 function holdDie(id){
